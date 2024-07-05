@@ -21,6 +21,6 @@ hello <- function() {
         return(x)
     }
 
-    return(mclapply(X = 1:4, FUN = f, mc.cores = 2))
+    return(mclapply(X = 1:4, FUN = f, mc.cores = 1))
 }
 
